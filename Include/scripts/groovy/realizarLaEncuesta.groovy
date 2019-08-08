@@ -62,21 +62,20 @@ class realizarLaEncuesta {
 		WebUI.click(findTestObject('Object Repository/radioBtnPriority',['value': data[0].prioridad]))
 
 		for(int i = 1; i <= 6; i++){
-			if(WebUI.getText(findTestObject('Object Repository/spanRadioBtn', ['xpath': '//*[@id="mG61Hd"]/div/div[2]/div[2]/div[7]/div/div[2]/div/span/div/div['+i+']/label/div/div[2]/div/span']))=="Seguridad"){
+			if(WebUI.getText(findTestObject('Object Repository/spanRadioBtn', ['xpath': '//*[@id="mG61Hd"]/div/div[2]/div[2]/div[7]/div/div[2]/div/span/div/div['+i+']/label/div/div[2]/div/span']))==data[0].tipo){
 				WebUI.comment("lo encontre")
 				WebUI.comment('//*[@id="mG61Hd"]/div/div[2]/div[2]/div[7]/div/div[2]/div/span/div/div['+i+']/label/div/div[2]/div/span')
 				WebUI.click(findTestObject('Object Repository/radioBtnTipo', ['xpath': '//*[@id="mG61Hd"]/div/div[2]/div[2]/div[7]/div/div[2]/div/span/div/div['+i+']/label/div/div[1]']))
 				break;
 			}
 		}
+		WebUI.delay(5)
 		WebUI.click(findTestObject('Object Repository/btn_enviar'))
 	}
-	@Then("yo valido que envie el formulario")
-	def yo_valido_que_envie_el_formulario(){
-		WebUI.verifyTextPresent("Muchas Gracias por su solicitud", false)
-	}
-	@Then("yo cierro el navegador")
-	def yo_cierro_el_navegador(){
-		WebUI.closeBrowser()
+	@Then("yo valido que elegi seguridad y la prioridad que es (.*)")
+	def yo_valido_que_elegi_seguridad_y_la_priodidad_que_es(String prioridad){
+		WebUI.click(findTestObject('Object Repository/btn_modificar'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/validacion'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/validacionPriority',['value': prioridad]),0)
 	}
 }
