@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="117.237492">
+<testcase classname="Encuesta" name="realizarEncuesta" time="66.270706">
+<system-out><![CDATA[Given yo me logeo con mi usuario santiago.pena@quipux.com y mi contraseña EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr.passed
+Given yo relleno la encuesta con los siguientes datos.......................passed
+Then yo valido que envie el formulario......................................passed
+Then yo cierro el navegador.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Encuesta" name="realizarEncuesta_2" time="28.774443">
+<system-out><![CDATA[Given yo me logeo con mi usuario santiago.pena@quipux.com y mi contraseña EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr.passed
+Given yo relleno la encuesta con los siguientes datos.......................passed
+Then yo valido que envie el formulario......................................passed
+Then yo cierro el navegador.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Encuesta" name="realizarEncuesta_3" time="22.192343">
+<system-out><![CDATA[Given yo me logeo con mi usuario santiago.pena@quipux.com y mi contraseña EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr.passed
+Given yo relleno la encuesta con los siguientes datos.......................passed
+Then yo valido que envie el formulario......................................passed
+Then yo cierro el navegador.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

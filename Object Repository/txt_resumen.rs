@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_resumen</name>
+   <tag></tag>
+   <elementGuidId>77cd4f3b-f173-4499-af87-02fcf380d0ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[5]/div/div[2]/div/div[1]/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[5]/div/div[2]/div/div[1]/div/div[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

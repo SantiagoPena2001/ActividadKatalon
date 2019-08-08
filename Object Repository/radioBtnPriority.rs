@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radioBtnPriority</name>
+   <tag></tag>
+   <elementGuidId>b0555e01-bf25-4b57-85e6-4f5a73240c00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[8]/div/div[2]/div/span/div/label/div/div[@data-value='${value}']
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[8]/div/div[2]/div/span/div/label/div/div[@data-value='${value}']
+</value>
+   </webElementProperties>
+</WebElementEntity>

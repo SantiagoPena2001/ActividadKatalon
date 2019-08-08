@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtArea_detalles</name>
+   <tag></tag>
+   <elementGuidId>e181cea4-33ce-4621-b65f-30d6659502e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[10]/div/div[2]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[10]/div/div[2]/div[1]/div[2]/textarea</value>
+   </webElementProperties>
+</WebElementEntity>

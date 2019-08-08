@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_correo</name>
+   <tag></tag>
+   <elementGuidId>594d1ecf-5a0c-4d80-8a7e-5be952890fbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[3]/div/div[2]/div/div[1]/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mG61Hd&quot;]/div/div[2]/div[2]/div[3]/div/div[2]/div/div[1]/div/div[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

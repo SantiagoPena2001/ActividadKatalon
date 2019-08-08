@@ -1,0 +1,349 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 54663080500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "yo me logeo con mi usuario santiago.pena@quipux.com y mi contraseña EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "santiago.pena@quipux.com",
+                  "offset": 27
+                },
+                {
+                  "val": "EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr",
+                  "offset": 68
+                }
+              ],
+              "location": "login.yo_me_logeo_con_mi_usuario_y_mi_contraseña(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "realizarEncuesta",
+        "description": "",
+        "id": "encuesta;realizarencuesta;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10407141600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "yo relleno la encuesta con los siguientes datos",
+            "match": {
+              "location": "realizarLaEncuesta.yo_relleno_la_encuesta_con_los_siguientes_datos(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nombre",
+                  "correo",
+                  "resumen",
+                  "donde",
+                  "fecha",
+                  "detalles",
+                  "prioridad"
+                ]
+              },
+              {
+                "cells": [
+                  "santiago",
+                  "santiago@gmail.com",
+                  "hubo un problema de seguridad",
+                  "en mi casa",
+                  "19/12/2020",
+                  "fue algo muy feo",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112743400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "yo valido que envie el formulario",
+            "match": {
+              "location": "realizarLaEncuesta.yo_valido_que_envie_el_formulario()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1059613800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "yo cierro el navegador",
+            "match": {
+              "location": "realizarLaEncuesta.yo_cierro_el_navegador()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Encuesta"
+          },
+          {
+            "name": "@realizarEncuesta"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20443004000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "yo me logeo con mi usuario santiago.pena@quipux.com y mi contraseña EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "santiago.pena@quipux.com",
+                  "offset": 27
+                },
+                {
+                  "val": "EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr",
+                  "offset": 68
+                }
+              ],
+              "location": "login.yo_me_logeo_con_mi_usuario_y_mi_contraseña(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "realizarEncuesta",
+        "description": "",
+        "id": "encuesta;realizarencuesta;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7470796500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "yo relleno la encuesta con los siguientes datos",
+            "match": {
+              "location": "realizarLaEncuesta.yo_relleno_la_encuesta_con_los_siguientes_datos(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nombre",
+                  "correo",
+                  "resumen",
+                  "donde",
+                  "fecha",
+                  "detalles",
+                  "prioridad"
+                ]
+              },
+              {
+                "cells": [
+                  "cristian",
+                  "cristian@gmail.com",
+                  "tuve un problema de seguridad",
+                  "calle sur",
+                  "2/4/2021",
+                  "tuve mucho miedo y no hice nada",
+                  "3"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40272800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "yo valido que envie el formulario",
+            "match": {
+              "location": "realizarLaEncuesta.yo_valido_que_envie_el_formulario()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 816674700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "yo cierro el navegador",
+            "match": {
+              "location": "realizarLaEncuesta.yo_cierro_el_navegador()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Encuesta"
+          },
+          {
+            "name": "@realizarEncuesta"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16050339000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "yo me logeo con mi usuario santiago.pena@quipux.com y mi contraseña EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr",
+            "match": {
+              "arguments": [
+                {
+                  "val": "santiago.pena@quipux.com",
+                  "offset": 27
+                },
+                {
+                  "val": "EVznDgI6UYaBchXZ1M8DJMlS22FHxCtr",
+                  "offset": 68
+                }
+              ],
+              "location": "login.yo_me_logeo_con_mi_usuario_y_mi_contraseña(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "realizarEncuesta",
+        "description": "",
+        "id": "encuesta;realizarencuesta;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5319534500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "yo relleno la encuesta con los siguientes datos",
+            "match": {
+              "location": "realizarLaEncuesta.yo_relleno_la_encuesta_con_los_siguientes_datos(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nombre",
+                  "correo",
+                  "resumen",
+                  "donde",
+                  "fecha",
+                  "detalles",
+                  "prioridad"
+                ]
+              },
+              {
+                "cells": [
+                  "kevin",
+                  "kevin@gmail.com",
+                  "me robaron",
+                  "calle 54 con avenida 20",
+                  "1/1/2020",
+                  "no estuve en casa",
+                  "4"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43458800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "yo valido que envie el formulario",
+            "match": {
+              "location": "realizarLaEncuesta.yo_valido_que_envie_el_formulario()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 776171500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "yo cierro el navegador",
+            "match": {
+              "location": "realizarLaEncuesta.yo_cierro_el_navegador()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Encuesta"
+          },
+          {
+            "name": "@realizarEncuesta"
+          }
+        ]
+      }
+    ],
+    "name": "Encuesta",
+    "description": "  Yo realizo una encuesta en google de solicitud de servicio",
+    "id": "encuesta",
+    "keyword": "Feature",
+    "uri": "Include/features/encuesta.feature",
+    "tags": [
+      {
+        "name": "@Encuesta",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
