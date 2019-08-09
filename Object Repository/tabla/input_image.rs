@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_image</name>
+   <tag></tag>
+   <elementGuidId>9c91833f-e0e7-4ccc-9d89-d77d47036aed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[8]/div/div/div/div[1]/div[3]/div/form/div/div[5]/div[1]/div[1]/div/div/div[1]/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/div[1]/div[3]/div/form/div/div[5]/div[1]/div[1]/div/div/div[1]/div[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

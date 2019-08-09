@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_crear</name>
+   <tag></tag>
+   <elementGuidId>0cbd11d2-84c7-420b-850c-804fa841934d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[8]/div/div/div/div[1]/div[4]/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/div[1]/div[4]/div[3]/button</value>
+   </webElementProperties>
+</WebElementEntity>
